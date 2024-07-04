@@ -1,0 +1,17 @@
+.hello{
+    background-color: chartreuse;
+    border: 2px solid magenta;
+    border-radius:5px ;
+    box-shadow: 3px 4px 5px tomato;
+    width: 40%;
+    margin: auto;
+}
+button{
+    background-color: skyblue;
+    color: tomato;
+    margin-left:450px;
+    margin-top: 20px;
+    border: 2px solid lightcoral;
+    border-radius: 9px;
+    box-shadow: 3px 3px 8px magenta;
+}
