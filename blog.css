@@ -1,17 +1,51 @@
-.hello{
-    background-color: chartreuse;
-    border: 2px solid magenta;
-    border-radius:5px ;
-    box-shadow: 3px 4px 5px tomato;
-    width: 40%;
-    margin: auto;
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
 }
-button{
-    background-color: skyblue;
-    color: tomato;
-    margin-left:450px;
-    margin-top: 20px;
-    border: 2px solid lightcoral;
-    border-radius: 9px;
-    box-shadow: 3px 3px 8px magenta;
+.banner{
+    height: 92vh;
+    width: 100%;
+    background-image:url(/pexels-photo-3408744.jpeg);
+    background-image: linear-gradient(rgba(0,0,0,0.812), rgba(0,0,0,0,0.669));
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.content{
+    color: #13efddf7;
+    opacity: 80%;
+    text-align: center;
+    width: 70%;
+
+}
+.content h2{
+    font-size: 54px;
+    color: #db714e;
+    text-transform: uppercase;
+}
+.content p{
+    font-size: 23px;
+    margin:15px 0;
+}
+.content button{
+    background-color: #04aa7d;
+    border: none;
+    border-radius:5px;
+    font-weight:600;
+    color: white;
+    padding:15px 32px;
+    font-size:16px;
+    cursor:pointer;
+}
+.content button:hover{
+
+    background-color: #068858;
+    transition: 0.5 ease-in;
 }
